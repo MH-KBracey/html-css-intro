@@ -23,7 +23,7 @@ Below is a plain HTML document. Atom (my favourite text editor) has a handy shor
 
 HTML elements typically have an opening tag, which looks like `<this>`, and an ending tag, which looks like `</this>` (some elements will work if you write them in different ways, such as the `<meta>` tag above, but we’re going to ignore that for now).  Any text or other elements placed between two tags will be treated as “children” of that element ("child", "parent" and "sibling" are the actual terms we use to describe relationships between elements).
 
-For the moment, we only care about elements placed inside the `<body>` tag.  Every HTML document has a body, and only elements placed inside the body will be visible to the end user.
+For the moment, we only care about elements placed inside the `<body>` tags.  Every HTML document has a body, and only elements placed inside the body will be visible to the end user.
 
 If you make a new file on your computer called `index.html` and copy the above code into it, then open the file in your favourite web browser, you'll see a blank page. The page is blank because the `<body>` contains no elements - but it does exist.
 
@@ -60,7 +60,7 @@ If you open up your favourite word processor and start typing, without doing any
 
 ...we'll see that they all sit next to each other on our page.  Now try making your browser window smaller - when there's no more sideways room, elements get pushed down to the space below.
 
-"That's great Kye, but what if I want to make it looks pretty? Where is the format menu?"
+"That's great Kye, but what if I want to make it look pretty? Where is the format menu?"
 
 This is where CSS comes in.
 
